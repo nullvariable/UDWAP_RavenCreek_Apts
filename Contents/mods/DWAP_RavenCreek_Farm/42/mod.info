@@ -1,0 +1,5 @@
+name=UDWAP Raven Creek Apartments
+id=DWAP_RavenCreek_Apts
+description=Adds generator and water support to apartment in Raven Creek
+authors=nullvariable
+require=\RavenCreekB42

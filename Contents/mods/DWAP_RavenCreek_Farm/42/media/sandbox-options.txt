@@ -1,0 +1,61 @@
+VERSION = 1,
+
+option DWAP_RavenCreek_Apts.MakePrimary
+{
+	type = boolean,
+	default = false,
+
+	page = DWAP_RavenCreek_Apts_General,
+	translation = DWAP_RavenCreek_Apts_MakePrimary,
+}
+
+option DWAP_RavenCreek_Apts.EnableLadders
+{
+	type = boolean,
+	default = true,
+
+	page = DWAP_RavenCreek_Apts_General,
+	translation = DWAP_RavenCreek_Apts_EnableLadders,
+}
+
+option DWAP_RavenCreek_Apts.KeyAndMap
+{
+	type = enum,
+	numValues = 2,
+	default = 1,
+
+	page = DWAP_RavenCreek_Apts_General,
+	translation = DWAP_RavenCreek_Apts_KeyAndMap,
+	valueTranslation = DWAP_RavenCreek_Apts_KeyAndMap_value,
+}
+
+option DWAP_RavenCreek_Apts.EssentialLoot
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+
+	page = DWAP_RavenCreek_Apts_General,
+	translation = DWAP_RavenCreek_Apts_EssentialLoot,
+	valueTranslation = DWAP_RavenCreek_Apts_EssentialLoot_value,
+}
+
+option DWAP_RavenCreek_Apts.RegularLoot
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+
+	page = DWAP_RavenCreek_Apts_General,
+	translation = DWAP_RavenCreek_Apts_RegularLoot,
+	valueTranslation = DWAP_RavenCreek_Apts_RegularLoot_value,
+}
+
+option DWAP_RavenCreek_Apts.ExtraLoot
+{
+	type = boolean,
+	default = false,
+
+	page = DWAP_RavenCreek_Apts_General,
+	translation = DWAP_RavenCreek_Apts_ExtraLoot,
+}
